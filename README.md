@@ -19,11 +19,11 @@ pip install -r requirements.txt
 
 ## A Map of Documentation 
 
-**DATA/**
+**DATA**
 - SOTU_data_final.csv - Dataset containing all SOTU speeches (1850-2025); Columns: President, Year, Title, Text, is_crisis, crisis_name
 - state_of_the_union_texts.csv - Raw original dataset
 
-**SCRIPTS/**
+**SCRIPTS**
 - sentiment_model.py - Main script: Analyzes sentiment of all speeches
 - stat_analysis.py - Secondary script: Performs statistical analysis on results and creates visualizations
 - project_1_eda.py - Initial exploratory data analysis 
