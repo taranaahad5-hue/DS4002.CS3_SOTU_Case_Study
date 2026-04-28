@@ -74,7 +74,7 @@ pip install -r requirements.txt
 1. Download SOTU_data_final.csv from the DATA folder and sentiment_model.py from the SCRIPTS folder to a known location on your computer.
 2. Run sentiment_model.py. Ensure that the file directory in your IDE is set to the location of SOTU_data_final.csv.
 3. A sentiment_analysis_results.csv file will be generated in the OUTPUTS folder containing sentiment scores for each speech.
-4. 4. Verify the output file was created in the OUTPUTS folder
+4. Verify the output file was created in the OUTPUTS folder
 
 ## Step 5: To run the statistical analysis script:
 
