@@ -1,1 +1,2 @@
-# DS4002.CS3_SOTU_Case_Study
+# DS4002 Final Project CS3
+# Read Me
