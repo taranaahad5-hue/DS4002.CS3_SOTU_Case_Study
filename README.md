@@ -29,26 +29,26 @@ pip install -r requirements.txt
 - project_1_eda.py - Initial exploratory data analysis 
 
 
-## Instructions for reproducing results
-# To run the exploratory data analysis script:
+# Instructions for reproducing results
+## To run the exploratory data analysis script:
 
 1. Download SOTU_data_final.csv from the DATA folder and project_1_eda.py from the SCRIPTS folder to a known location on your computer.
 2. Run project_1_eda.py. Ensure that the file directory in your IDE is set to the location of SOTU_data_final.csv.
 3. Plots will be generated showing crisis vs. non-crisis speech counts, average word count by crisis flag, crisis years by type, and frequency of crises mentioned in SOTU addresses.
 
-# To run the sentiment analysis script:
+## To run the sentiment analysis script:
 
 1. Download SOTU_data_final.csv from the DATA folder and sentiment_model.py from the SCRIPTS folder to a known location on your computer.
 2. Run sentiment_model.py. Ensure that the file directory in your IDE is set to the location of SOTU_data_final.csv.
 3. A sentiment_analysis_results.csv file will be generated in the OUTPUTS folder containing sentiment scores for each speech.
 
-# To run the statistical analysis script:
+## To run the statistical analysis script:
 
 1. Download sentiment_analysis_results.csv from the OUTPUTS folder and stat_analysis.py from the SCRIPTS folder.
 2. Run stat_analysis.py. Ensure that the file directory in your IDE is set to the location of sentiment_analysis_results.csv.
 3. Six visualizations and a summary report will be generated in the OUTPUTS folder.
 
-# Once all scripts have been run, these are the outputs you should be able to obtain:
+## Once all scripts have been run, these are the outputs you should be able to obtain:
 
 1. sentiment_analysis_results.csv — sentiment scores for all speeches
 2. analysis_summary.txt — statistical test results summary
