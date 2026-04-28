@@ -84,11 +84,15 @@ pip install -r requirements.txt
 
 ## Step 6: Once all scripts have been run, these are the outputs you should be able to obtain:
 
-1. sentiment_analysis_results.csv — sentiment scores for all speeches
-2. analysis_summary.txt — statistical test results summary
-3. boxplot_positive_sentiment.png — box plot comparing crisis vs. non-crisis sentiment
-4. histogram_positive_sentiment.png — histogram of sentiment distribution
-5. pie_crisis_sentiment.png — pie chart for crisis speeches
-6. pie_noncrisis_sentiment.png — pie chart for non-crisis speeches
-7. boxplot_ratio.png — box plot of positive/negative ratios
-8. timeseries_sentiment.png — time series showing sentiment trends over time
+1. crisis_vs_noncrisis_count.png — bar chart of SOTU speeches by crisis status
+2. avg_wordcount_by_crisis.png — average word count by crisis flag
+3. crisis_years_by_type.png — bar chart of crisis years by type (military vs. economic)
+4. crisis_frequency_chart.png — frequency of crises mentioned in SOTU addresses
+5. sentiment_analysis_results.csv — sentiment scores for all speeches
+6. analysis_summary.txt — statistical test results summary
+7. boxplot_positive_sentiment.png — box plot comparing crisis vs. non-crisis sentiment
+8. histogram_positive_sentiment.png — histogram of sentiment distribution
+9. pie_crisis_sentiment.png — pie chart for crisis speeches
+10. pie_noncrisis_sentiment.png — pie chart for non-crisis speeches
+11. boxplot_ratio.png — box plot of positive/negative ratios
+12. timeseries_sentiment.png — time series showing sentiment trends over time
