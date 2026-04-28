@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 **Optional**: If you disagree with any of the crisis classifications in the dataset, you may update the is_crisis or crisis_name columns in SOTU_data_final.csv before running the scripts. Rerunning the analysis with your own classifications is a great way to explore how definitional choices affect results.
 
-"Note: The dataset contains 231 rows spanning 1850–2025, but the analysis scripts filter to speeches from 1900 onward, resulting in a smaller subset for modeling."
+**Note:** The dataset contains 231 rows spanning 1850–2025, but the analysis scripts filter to speeches from 1900 onward, resulting in a smaller subset for modeling.
 
 
 ## Step 3: To run the exploratory data analysis script:
