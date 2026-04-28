@@ -26,29 +26,63 @@ pip install -r requirements.txt
 **SCRIPTS**
 - sentiment_model.py - Main script: Analyzes sentiment of all speeches
 - stat_analysis.py - Secondary script: Performs statistical analysis on results and creates visualizations
-- project_1_eda.py - Initial exploratory data analysis 
+- project_1_eda.py - Initial exploratory data analysis
+
+**OUTPUTS**
+- sentiment_analysis_results.csv - Results from sentiment analysis 
+- analysis_summary.txt - Statistical test results summary 
+- boxplot_positive_sentiment.png - Box plot comparing crisis vs non-crisis 
+- histogram_positive_sentiment.png - Histogram of sentiment distribution 
+- pie_crisis_sentiment.png - Pie chart for crisis speeches 
+- pie_noncrisis_sentiment.png - Pie chart for non-crisis speeches 
+- boxplot_ratio.png - Box plot of positive/negative ratios 
+- timeseries_sentiment.png - Time series showing sentiment trends
 
 
 # Instructions for reproducing results
-## To run the exploratory data analysis script:
+
+## Step 1: Set Up Environment
+
+1. Clone or download this repository to your local machine
+2. Open a terminal or command prompt and navigate to the project directory:
+```bash
+   cd DS4002.CS3_SOTU_Case_Study
+```
+3. Install required Python packages:
+```bash
+   pip install -r requirements.txt
+```
+## Step 2: Verify Data Files
+
+1. Ensure the `DATA` folder contains `SOTU_data_final.csv`
+2. This file should contain 231 rows (one per speech) with the following columns:
+   - President: Name of the president
+   - Year: Year of the speech (1850-2025)
+   - Title: Full title of the speech
+   - Text: Complete speech text (stored as a list of sentences)
+   - is_crisis: Binary indicator (1 = crisis, 0 = non-crisis)
+   - crisis_name: Name of the crisis (if applicable)
+
+## Step 3: To run the exploratory data analysis script:
 
 1. Download SOTU_data_final.csv from the DATA folder and project_1_eda.py from the SCRIPTS folder to a known location on your computer.
 2. Run project_1_eda.py. Ensure that the file directory in your IDE is set to the location of SOTU_data_final.csv.
 3. Plots will be generated showing crisis vs. non-crisis speech counts, average word count by crisis flag, crisis years by type, and frequency of crises mentioned in SOTU addresses.
 
-## To run the sentiment analysis script:
+## Step 4: To run the sentiment analysis script:
 
 1. Download SOTU_data_final.csv from the DATA folder and sentiment_model.py from the SCRIPTS folder to a known location on your computer.
 2. Run sentiment_model.py. Ensure that the file directory in your IDE is set to the location of SOTU_data_final.csv.
 3. A sentiment_analysis_results.csv file will be generated in the OUTPUTS folder containing sentiment scores for each speech.
+4. 4. Verify the output file was created in the OUTPUTS folder
 
-## To run the statistical analysis script:
+## Step 5: To run the statistical analysis script:
 
 1. Download sentiment_analysis_results.csv from the OUTPUTS folder and stat_analysis.py from the SCRIPTS folder.
 2. Run stat_analysis.py. Ensure that the file directory in your IDE is set to the location of sentiment_analysis_results.csv.
 3. Six visualizations and a summary report will be generated in the OUTPUTS folder.
 
-## Once all scripts have been run, these are the outputs you should be able to obtain:
+## Step 6: Once all scripts have been run, these are the outputs you should be able to obtain:
 
 1. sentiment_analysis_results.csv — sentiment scores for all speeches
 2. analysis_summary.txt — statistical test results summary
