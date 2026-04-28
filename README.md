@@ -63,6 +63,8 @@ pip install -r requirements.txt
    - is_crisis: Binary indicator (1 = crisis, 0 = non-crisis)
    - crisis_name: Name of the crisis (if applicable)
 
+### Optional: If you disagree with any of the crisis classifications in the dataset, you may update the is_crisis or crisis_name columns in SOTU_data_final.csv before running the scripts. Rerunning the analysis with your own classifications is a great way to explore how definitional choices affect results.
+
 ## Step 3: To run the exploratory data analysis script:
 
 1. Download SOTU_data_final.csv from the DATA folder and project_1_eda.py from the SCRIPTS folder to a known location on your computer.
